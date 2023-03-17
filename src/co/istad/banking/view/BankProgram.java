@@ -3,7 +3,7 @@ package co.istad.banking.view;
 import co.istad.banking.model.CreditCard;
 import co.istad.banking.model.DollarRate;
 import co.istad.banking.model.SavingAccount;
-import co.istad.service.Database;
+import co.istad.banking.service.Database;
 
 public class BankProgram {
     public static void main(String[] args) {
@@ -20,7 +20,6 @@ public class BankProgram {
         }
         creditCard.deposit(100.0);
         creditCard.withdrawal(1000.0);
-        creditCard.withdrawal();
         creditCard.showBalance();
         System.out.println("##################################################");
         System.out.println("                    Saving card                     ");

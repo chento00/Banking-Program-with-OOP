@@ -1,4 +1,4 @@
-package co.istad.service;
+package co.istad.banking.service;
 import co.istad.banking.model.CreditCard;
 import co.istad.banking.model.SavingAccount;
 
